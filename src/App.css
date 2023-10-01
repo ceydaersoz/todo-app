@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  height: 70vh;
+  background-color: rgb(219, 137, 30);
+}
+
+
+/* NAVBAR START */
+.sitelogo{
+  margin-right: 20px;
+}
+
+.nav-link{
+  margin: 10px 0;
+}
+
+
+
+.nav-auth{
+  color: rgb(219, 137, 30);
+  font-weight: 600;
+}
+
+.navbar1{
+  background-color: white;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  padding: 10px 100px;
+}
+
+
+
+/* NAVBAR END */
+
+/* CARDS START */
+
+.cards{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 40px;
+  flex-wrap: wrap;
+  
+}
+
+.cards-style{
+  border-radius: 30px;
+  border: 0px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.title-style{
+  font-weight: 700;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.listgroup{
+  margin: 20px 0px;
+}
+
+.task{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.addbutton{
+  width: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.delete{
+  width: 20px;
+}
+
+.add{
+  width: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.addtask{
+  font-size: 14px;
+  font-style: italic;
+}
+
+.newtask{
+  border: 0px;
+}
+
+/* CARDS END */
+
+
+
+
+/* FOOTER START */
+.footer{
+  margin-top: 250px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px -1px 0px;
+}
+
+/* FOOTER END */
